@@ -10,7 +10,7 @@ function CategoryCard({data}) {
           <h2>{data.title}</h2>
         </span>
         <img src={data.imgLink} alt=''/>
-        <p className="p">shop now</p>
+         <p className={classes.ctaButton}>Shop Now</p>
       </Link>
     </div>
   )

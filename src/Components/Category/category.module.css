@@ -17,17 +17,16 @@
   color: rgb(35,35,35);
 }
 
-.category h2,
-.category p{
+.category h2{
   padding: 5px;
   margin-left: 15px;
 }
 
-.category p{
+/*.category p{
   font-size: 12px;
   font-weight: bold;
   color: rgb(9,132,209);
-}
+}*/
 
 .category_container{
   position: relative;
@@ -40,4 +39,26 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+.ctaButton {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+  background-color: var(--primary-shade);
+ 
+}
+
+
 

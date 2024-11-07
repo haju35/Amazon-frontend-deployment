@@ -1,6 +1,5 @@
 
 import React from 'react'
-import { TiThMenu } from "react-icons/ti";
 import classes from './header.module.css';
 
 const LowerHeader = () => {
